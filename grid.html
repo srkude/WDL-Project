@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BOSS AIRLINES-Flight Details</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5pm2le-53NpfYU2m587NLw1v84D6wV3_kbJDFEszxdLUKkD7nSA"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+
+   body
+    {
+      background-color: cornsilk;
+      
+      background: url(airline.png);
+      background-size: cover;
+
+    }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      padding: 20px 20px 20px 200px;
+      /*background: url(download.jpg);*/
+    }
+    
+    .navbar-brand
+    {
+       background: url(logo.jpg);
+       width: 195px;
+       height: 85px;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+   
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+ 
+  .page-footer a{
+  color: skyblue;
+	}
+
+   button{
+   	color: black;
+   	background-color: skyblue;
+
+   	padding:10px;
+    border: none;
+  outline: none;
+  width: 60px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+   }
+   button:hover{
+   	color: white;
+   	background-color: blue;
+   }
+/* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 1023px) {
+      .sidenav {
+        height: auto;
+        padding: 50px;
+      }
+      .row.content {height:auto;} 
+    }
+
+    .nav a 
+    {
+      font-size: 20px;
+    }
+  </style>	
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#"></a></li>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#"></a></li>
+          
+         <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+               <li><a href="#">Boss Airlines is the project designed to facilitate<br>airline ticket booking.</a></li>
+           </ul>
+         </li>
+          
+        <li><a href="#"></a></li>
+        <li><a href="#">FAQ's</a></li>
+        <li><a href="#"></a></li>
+        
+         <!-- drop down menu -->
+       <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact us <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+               <li><a href="#">Phone No: 2502514125</a></li>
+                   
+               <li><a href="#">Email: boss.air@gmail.com</a></li>
+               <li><a href="#"></a></li>
+           </ul>
+       </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  
+  <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font style="background-color: rgba(38,38,38, 0.3); color: black; font-family: Comic Sans MS;font-size: 30px;">PLEASE SELECT YOUR FLIGHT  <span class="fa fa-plane" style="font-size:36px;"></span></font>  </h1>
+  <p></p>
+  <div class="row">
+  	<div class="col-sm-1" style="background-color:lavenderblush;"></div>
+  	<div class="col-sm-1" style="background-color:lavender;"></div>
+    <div class="col-sm-1" style="background-color:lavender;">
+    <font style="font-family: Comic Sans MS;font-size:18px;">Serial  No.</font><br><br>
+    
+    </div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">
+    <font style="font-family: Comic Sans MS;font-size:18px;">Flight No.</font><br>
+    <br>	
+    </div>
+    <div class="col-sm-1" style="background-color:lavender;">
+	<font style="font-family: Comic Sans MS;font-size:18px;">Journey From</font><br>
+	<br>
+	</div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">
+    <font style="font-family: Comic Sans MS;font-size:18px;">Journey To</font><br>
+	<br>
+    </div>
+    <div class="col-sm-1" style="background-color:lavender;">
+    <font style="font-family: Comic Sans MS;font-size:18px;">Arrival Time</font><br>
+	<br>    
+    </div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">
+    <font style="font-family: Comic Sans MS;font-size:18px;"> Dept Time</font><br>	
+	<br>
+    </div>
+    <div class="col-md-1" style="background-color:lavender;">
+    <font style="font-family: Comic Sans MS;font-size:18px;">Price Per Seat</font><br>
+	<br> 
+	</div>
+	<div class="col-md-1" style="background-color:lavenderblush;">
+    <br>
+    <br><br><br>	
+
+    </div>
+    <div class="col-md-1" style="background-color:lavenderblush;"></div>
+    <div class="col-sm-1" style="background-color:lavender;"></div>
+	
+  </div>
+
+  <div class="row">
+  	<div class="col-md-1" style="background-color:lavender;"></div>
+  	<div class="col-md-1" style="background-color:lavenderblush;"></div>
+
+  	<div class="col-md-1" style="background-color:lavenderblush;">
+  		<font size="3">&emsp;&emsp;1.<br><br><br>
+  		</font>	
+  	</div>
+
+    <div class="col-md-1" style="background-color:lavender;">
+    	<font size="3"><br><br><br></font>
+    </div>
+    <div class="col-md-1" style="background-color:lavenderblush;">
+  		<font size="3"><br><br><br></font>
+  	</div>
+
+    <div class="col-md-1" style="background-color:lavender;">
+    	<font size="3"><br><br><br></font>
+    </div>
+
+     <div class="col-md-1" style="background-color:lavenderblush;">
+  		<font size="3"><br><br><br></font>
+  	</div>
+
+    <div class="col-md-1" style="background-color:lavender;">
+    	<font size="3"><br><br><br></font>
+    </div>
+     <div class="col-md-1" style="background-color:lavenderblush;">
+  		<font size="3"><br><br><br></font>
+  	</div>
+
+    <div class="col-md-1" style="background-color:lavender;">
+    	<font size="3"><br><button type="button" onclick="location.href='page3.html'">Book</button><br></font><br></div>
+    <div class="col-md-1" style="background-color:lavender;"></div>
+    <div class="col-md-1" style="background-color:lavenderblush;"></div>  	
+  </div>
+
+ <div class="row">
+  	<div class="col-md-1" style="background-color:lavender;"></div>
+  	<div class="col-md-1" style="background-color:lavenderblush;"></div>
+
+  	<div class="col-md-1" style="background-color:lavenderblush;">
+  		<font size="3">&emsp;&emsp;2.<br><br><br>
+  		</font>	
+  	</div>
+
+    <div class="col-md-1" style="background-color:lavender;">
+    	<font size="3"><br><br><br></font>
+    </div>
+    <div class="col-md-1" style="background-color:lavenderblush;">
+  		<font size="3"><br><br><br></font>
+  	</div>
+
+    <div class="col-md-1" style="background-color:lavender;">
+    	<font size="3"><br><br><br></font>
+    </div>
+
+     <div class="col-md-1" style="background-color:lavenderblush;">
+  		<font size="3"><br><br><br></font>
+  	</div>
+
+    <div class="col-md-1" style="background-color:lavender;">
+    	<font size="3"><br><br><br></font>
+    </div>
+     <div class="col-md-1" style="background-color:lavenderblush;">
+  		<font size="3"><br><br><br></font>
+  	</div>
+
+    <div class="col-md-1" style="background-color:lavender;">
+    	<font size="3"><br><button type="button" onclick="location.href='page3.html'">Book</button><br></font><br></div>
+    <div class="col-md-1" style="background-color:lavender;"></div>
+    <div class="col-md-1" style="background-color:lavenderblush;"></div>  	
+  </div>
+
+</div>
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<footer class="page-footer footerStyle">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-4 mt-md-0 mt-3">
+        <br/><img src="logo.jpg"/>
+        <h5 class="text-uppercase"><b></b></h5>
+        <p> BOSS AIRLINES is the project developed by Shubham,Shreyas,Bhargavi and Omkar of CSE RAIT</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-6">
+      <div class="col-md-4 mb-md-0 mb-3">
+          <h5 class="text-uppercase"><b>Links</b></h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-home" style="font-size:18px;"></span> Home</a>
+            </li>
+            
+            <li>
+                <a href="#"><span class="glyphicon glyphicon-globe" style="font-size:18px;"></span> About</a>
+            </li>
+              <li>
+              <a href="#"> <span class="fa fa-wrench" style="font-size:20px;"></span> FAQs</a>
+            </li>
+            <li>
+              <a href="#"> <span class="fa fa-address-book" style="font-size:18px;"></span> Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class=" offset-md-3 col-md-4 mb-md-0 mb-3">
+          <h5 class="text-uppercase"><b>CONNECT WITH US:</b></h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.facebook.com/"><span class="fa fa-facebook-official" style="font-size:24px"></span></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/"><span class="fa fa-instagram" style="font-size:24px"></span></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/login?lang=en"><span  class="fa fa-twitter-square" style="font-size:24px"></span></a>
+            </li>
+             <li>
+              <a href="https://www.youtube.com/"><span class="fa fa-youtube-play" style="font-size:24px"></span></a>
+            </li>
+             <li>
+              <a href="https://in.linkedin.com/"><span class="fa fa-linkedin-square" style="font-size:24px"></span></a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="#"> bossairlines.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
